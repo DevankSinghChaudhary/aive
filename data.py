@@ -15,3 +15,9 @@ def ask():
         "idea":idea,
         "duration of video (seconds)":duration
         }
+
+
+def json_making(scene):
+    start = scene.find("{")
+    end = scene.rfind("}")
+    return scene[start:end+1]

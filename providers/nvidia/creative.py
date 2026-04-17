@@ -12,7 +12,7 @@ client = OpenAI(
 
 def creative_llm(creative_prompt):
   completion = client.chat.completions.create(
-    model="google/gemma-2-27b-it",
+    model="openai/gpt-oss-120b",
     messages=[{"role":"user","content":creative_prompt}],
     temperature=1,
     top_p=1,

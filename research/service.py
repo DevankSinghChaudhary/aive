@@ -9,3 +9,4 @@ def get_data(query):
         return {"error":"nothing for search"}
     
     return extract_page_data(page)
+

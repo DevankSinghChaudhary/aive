@@ -16,6 +16,7 @@ OUTPUT:
 {{
   "scenes": [
     {{
+      "scene_id":,
       "text": ["line1", "line2"],
       "visual_keywords": ["keyword1", "keyword2"],
       "highlight_words": ["word1"],
@@ -29,6 +30,8 @@ OUTPUT:
     }}
   ]
 }}
+
+RETURN WITH ACTUAL VALUES INSIDE NOT JUST THIS STRUCTURE
 
 STYLE RULES:
 

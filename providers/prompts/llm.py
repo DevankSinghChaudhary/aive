@@ -25,6 +25,7 @@ def llm_prompt(first_input):
     "title":"",
     "script":[{{"first":"","second":"",...}}]
     }}
+    RETURN WITH ACTUAL VALUES INSIDE NOT JUST THIS STRUCTURE
     
     THATS IT NOTHING ELSE
     """

@@ -15,12 +15,14 @@ Return ONLY valid JSON:
 {{
   "scenes": [
     {{
-      "text": ["line1", "line2"],
+      "scene_id":{{number of scene id, 1,2,3...}},
+      "text": [""line1"", ""line2""],
       "visual_keywords": [],
       "highlight_words": []
     }}
   ]
 }}
+RETURN WITH ACTUAL VALUES INSIDE NOT JUST THIS STRUCTURE
 
 RULES:
 - Max scenes: {max_scene}
